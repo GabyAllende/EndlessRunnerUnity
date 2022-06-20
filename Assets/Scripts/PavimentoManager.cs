@@ -35,6 +35,7 @@ public class PavimentoManager : MonoBehaviour
         if (transformJugador.position.z - 35 > zSpawn - (numPav * tamanoPavimento)) {
             aparecerPavimento(Random.Range(1, pavimentosPrehechos.Length));
             borrarPav();
+            JugadorController.velocidadAvance++;
             Debug.Log("ENTRAAAAAA");
         }
         

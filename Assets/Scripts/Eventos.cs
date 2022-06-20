@@ -7,6 +7,7 @@ public class Eventos : MonoBehaviour
 {
     public void volverAJugar() {
         SceneManager.LoadScene("Level");
+        JugadorController.velocidadAvance = 10;
     }
 
     public void dejarDeJugar() {

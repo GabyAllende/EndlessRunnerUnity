@@ -6,7 +6,7 @@ public class JugadorController : MonoBehaviour
 {
     private CharacterController controlador;
     private Vector3 direccion;
-    public float velocidadAvance;
+    public static float velocidadAvance=10;
     private int carrilElegido = 1; //El 0 es izq, el 1 es centro, el 2 es der
     public float distCarriles = 2.5f; // distancia entre los carriles
     public float fuerzaSalto;
